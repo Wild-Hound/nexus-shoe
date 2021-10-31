@@ -12,6 +12,7 @@ import slideImg3 from "../public/MC-web-banner.jpg";
 import slideImg4 from "../public/Justice-Luegue-banner.jpg";
 
 SwiperCore.use([Pagination]);
+//
 
 const SliderContent = styled(SwiperSlide)`
   width: 100%;
