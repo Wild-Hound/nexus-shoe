@@ -13,7 +13,7 @@ const NavWrapper = styled("div")`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5em 1em;
+  padding: 1rem;
   max-width: 1500px;
   margin: auto;
 `;
@@ -36,7 +36,7 @@ const HeaderNav = () => {
     <ParentWrapper>
       <NavWrapper>
         <BrandIcon>
-          <Image src={icon} width={60} height={60} />
+          {/* <Image src={icon} width={60} height={60} /> */}
           <BrandText>Nexus Shoes</BrandText>
         </BrandIcon>
         <SearchBar />

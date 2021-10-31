@@ -11,6 +11,8 @@ const DownIcon = styled(DownOutlined)`
 const SearchBarWrapper = styled("div")`
   display: flex;
   align-items: center;
+  width: 100%;
+  max-width: 650px;
 `;
 
 const CategoryDropDown = styled(Dropdown)`

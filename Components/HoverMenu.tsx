@@ -9,7 +9,7 @@ const HoverMenuWrapper = styled("div")`
   border: 1px solid #34495e;
   display: flex;
   align-items: center;
-  padding: 0.5rem 0.75rem;
+  padding: 0.35rem 0.75rem;
   border-radius: 22px;
   gap: 0.75rem;
   cursor: pointer;
