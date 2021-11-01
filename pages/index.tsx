@@ -3,10 +3,12 @@ import Head from "next/head";
 import Image from "next/image";
 import FeatureSlider from "../Components/FeatureSlider";
 import HeaderNav from "../Components/HeaderNav";
+import ProductsSlideShow from "../Components/ProductsSlideShow";
 import QuickLinks from "../Components/QuickLinks";
 import styles from "../styles/Home.module.scss";
 
 const Home: NextPage = () => {
+  const filters = ["Sneakers", "Casuals", "Sandals", "Formals"];
   return (
     <div className={styles.container}>
       <Head>
@@ -17,6 +19,7 @@ const Home: NextPage = () => {
       <HeaderNav />
       <QuickLinks />
       <FeatureSlider />
+      <ProductsSlideShow tags={filters} />
       <main className={styles.main}></main>
 
       <footer className={styles.footer}></footer>

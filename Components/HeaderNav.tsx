@@ -8,6 +8,9 @@ import SearchBar from "./SearchBar";
 
 const ParentWrapper = styled("div")`
   background-color: #1e272e;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 `;
 const NavWrapper = styled("div")`
   display: flex;

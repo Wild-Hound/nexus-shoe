@@ -16,8 +16,8 @@ SwiperCore.use([Pagination]);
 
 const SliderContent = styled(SwiperSlide)`
   width: 100%;
-  height: 65vh;
-  background-color: aqua;
+  min-height: fit-content;
+  background-color: #1e272e;
   position: relative;
 `;
 
@@ -26,22 +26,22 @@ const FeatureSlider = () => {
     <Swiper pagination={true} className="mySwiper">
       <SwiperSlide>
         <SliderContent>
-          <Image src={slideImg} layout="fill" />
+          <Image src={slideImg} layout="responsive" />
         </SliderContent>
       </SwiperSlide>
       <SwiperSlide>
         <SliderContent>
-          <Image src={slideImg2} layout="fill" />
+          <Image src={slideImg2} layout="responsive" />
         </SliderContent>
       </SwiperSlide>
       <SwiperSlide>
         <SliderContent>
-          <Image src={slideImg3} layout="fill" />
+          <Image src={slideImg3} layout="responsive" />
         </SliderContent>
       </SwiperSlide>
       <SwiperSlide>
         <SliderContent>
-          <Image src={slideImg4} layout="fill" />
+          <Image src={slideImg4} layout="responsive" />
         </SliderContent>
       </SwiperSlide>
     </Swiper>
